@@ -19,7 +19,3 @@ while 1:
     pyautogui.click(x = 468, y = 56)
     if keyboard.is_pressed('enter'):
         break
-#while 1:
-#    position = pyautogui.position()
-#    if keyboard.is_pressed('enter'):
-#        print(position)
