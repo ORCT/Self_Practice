@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.keys import Keys
 
-browser = webdriver.Chrome('./chromedriver')
+browser = webdriver.Chrome('./chromedriver')#be care for the version of chrome and chromedriver should be same
 browser.get('')#copy and paste the address that you want to crawl.
 time.sleep(4)
 
