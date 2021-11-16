@@ -15,3 +15,8 @@ time.sleep(3)
 
 browser.find_element_by_css_selector('li.champion-stats-menu__list__item.champion-stats-menu__list__item--red.tabHeader > a').click()
 time.sleep(2)
+
+counter = browser.find_elements_by_css_selector('div.champion-matchup-list__champion > span:nth-child(2)')
+for i in counter:
+    print(i.text)
+browser.close()
